@@ -1,0 +1,27 @@
+{
+  "name": "portfolio_dev",
+  "version": "1.0.0",
+  "description": "Testing Repo for updated portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aotolbert/portfolio_dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aotolbert/portfolio_dev/issues"
+  },
+  "homepage": "https://github.com/aotolbert/portfolio_dev#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "npm": "^6.4.1",
+    "path": "^0.12.7"
+  }
+}

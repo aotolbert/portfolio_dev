@@ -1,0 +1,118 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.parallax {
+background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-All-White-and-Black-Background-Free-Download-PIC-WPC0013441.jpg");
+/* Set a specific height */
+/* min-height: 600px;  */
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.img-text-box {
+position: absolute;
+margin: auto;
+top: 50%;
+left: 65%;
+transform: translate( -40%, -50% );
+font-family: Georgia, 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+text-align: center;
+color: white;
+background-color: rgba(24, 23, 23, 0.796);
+/* padding: 5%; */
+}
+
+.img-img-box {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 25%;
+    transform: translate( -50%, -50% );
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(24, 23, 23, 0.796);
+    /* padding: 5%; */
+}
+
+#techBox {
+overflow: auto;
+background-color: rgba(24, 23, 23, 0.796);
+color: white;
+width: auto;
+}
+
+#profilePicBack {
+    background-color: rgba(24, 23, 23, 0.796);
+}
+
+#aboutMe {
+    background-color: rgba(24, 23, 23, 0.796);
+    color: white;
+    font-size: 18pt;
+}
+
+#footer {
+    height: 100px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+@media (max-width: 1050px) { 
+    #aboutMe {
+        background-color: rgba(24, 23, 23, 0.796);
+        color: white;
+        font-size: 14pt;
+    }
+    #profilePic {
+        width: 700px;
+    }
+
+ }
+
+@media (max-width: 767.98px) { 
+    #aboutMe {
+        background-color: rgba(24, 23, 23, 0.796);
+        color: white;
+        font-size: 14pt;
+    }
+    #profilePic {
+        width: 500px;
+    }
+
+ }
+
+ 
+@media (max-width: 550px) { 
+    #aboutMe {
+        background-color: rgba(24, 23, 23, 0.796);
+        color: white;
+        font-size: 14pt;
+    }
+    #profilePic {
+        width: 375px;
+    }
+
+ }
+
+ @media (max-width: 400px) { 
+    #aboutMe {
+        background-color: rgba(24, 23, 23, 0.796);
+        color: white;
+        font-size: 12pt;
+    }
+    #profilePic {
+        width: 300px;
+    }
+
+ }
+
