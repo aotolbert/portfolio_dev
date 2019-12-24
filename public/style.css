@@ -5,10 +5,11 @@ html, body {
 }
 
 .parallax {
-background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-All-White-and-Black-Background-Free-Download-PIC-WPC0013441.jpg");
+/* background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-All-White-and-Black-Background-Free-Download-PIC-WPC0013441.jpg"); */
 /* Set a specific height */
 /* min-height: 600px;  */
 /* Create the parallax scrolling effect */
+background-image: url("./images/chalkboard_background.jpg");
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
